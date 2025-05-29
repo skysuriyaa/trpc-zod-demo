@@ -4,7 +4,7 @@ import { trpc } from "@/utils/trpc";
 
 export default function Home() {
 	const { data, isLoading } = trpc.example.getGreeting.useQuery({
-		name: "Next.js App Router",
+		name: "Chandru",
 	});
 
 	if (isLoading) return <p>Loading...</p>;

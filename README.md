@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Installing Dependencies
+
+### 1. Create a new Next.js app
+
+npx create-next-app@latest trpc-zod-demo --typescript
+cd trpc-zod-demo
+
+### 2. Install tRPC and Zod
+
+npm add @trpc/server @trpc/client @trpc/react-query @tanstack/react-query zod
+npm add -D @types/node
+
 ## Getting Started
 
 First, run the development server:
